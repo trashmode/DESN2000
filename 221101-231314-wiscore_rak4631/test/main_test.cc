@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "measurement_test.cc"
+#include "measurement_test.h"
 // #include "hello_test.h"
 int main(int argc, char **argv)
 {
