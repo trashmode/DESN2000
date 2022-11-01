@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/googletest-build",
+		"source" : "/Users/michaelchai/Desktop/UNI Second Year/Term 3/DESN2000/DESN2000/src/build/_deps/googletest-src"
+	}
+}

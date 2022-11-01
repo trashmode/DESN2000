@@ -1,0 +1,5 @@
+if(EXISTS "/Users/michaelchai/Desktop/UNI Second Year/Term 3/DESN2000/DESN2000/src/build/main_test[1]_tests.cmake")
+  include("/Users/michaelchai/Desktop/UNI Second Year/Term 3/DESN2000/DESN2000/src/build/main_test[1]_tests.cmake")
+else()
+  add_test(main_test_NOT_BUILT main_test_NOT_BUILT)
+endif()
