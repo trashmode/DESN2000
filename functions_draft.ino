@@ -7,7 +7,7 @@ void lora_join_status();
 
 // Sensor Data collection
 void converting_anlouge_signal_to_digital();
-void take_measurement();
+void take_measurement(); // measurement for 30 - 60 sec
 void high_sample_rate(); // every 20 minutes take measurement alert mode
 void normal_sample_rate(); // every 3 hours
 void send_error_message();
