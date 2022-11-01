@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/googletest-build",
+		"source" : "/Users/michaelchai/Documents/PlatformIO/Projects/221101-231314-wiscore_rak4631/build/_deps/googletest-src"
+	}
+}
