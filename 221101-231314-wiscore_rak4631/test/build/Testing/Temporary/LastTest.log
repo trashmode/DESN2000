@@ -1,0 +1,29 @@
+Start testing: Nov 02 10:04 AEDT
+----------------------------------------------------------
+1/1 Testing: MeasurementTest.BasicAssertion
+1/1 Test: MeasurementTest.BasicAssertion
+Command: "/Users/michaelchai/Desktop/UNI Second Year/Term 3/DESN2000/DESN2000/221101-231314-wiscore_rak4631/test/build/main_test" "--gtest_filter=MeasurementTest.BasicAssertion" "--gtest_also_run_disabled_tests"
+Directory: /Users/michaelchai/Desktop/UNI Second Year/Term 3/DESN2000/DESN2000/221101-231314-wiscore_rak4631/test/build
+"MeasurementTest.BasicAssertion" start time: Nov 02 10:04 AEDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MeasurementTest.BasicAssertion
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MeasurementTest
+[ RUN      ] MeasurementTest.BasicAssertion
+[       OK ] MeasurementTest.BasicAssertion (0 ms)
+[----------] 1 test from MeasurementTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MeasurementTest.BasicAssertion" end time: Nov 02 10:04 AEDT
+"MeasurementTest.BasicAssertion" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 02 10:04 AEDT

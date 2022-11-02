@@ -1,0 +1,55 @@
+Start testing: Nov 02 01:16 AEDT
+----------------------------------------------------------
+1/2 Testing: FunctionTest.BasicAssertion
+1/2 Test: FunctionTest.BasicAssertion
+Command: "/Users/michaelchai/Desktop/UNI Second Year/Term 3/DESN2000/DESN2000/examples/build/main_test" "--gtest_filter=FunctionTest.BasicAssertion" "--gtest_also_run_disabled_tests"
+Directory: /Users/michaelchai/Desktop/UNI Second Year/Term 3/DESN2000/DESN2000/examples/build
+"FunctionTest.BasicAssertion" start time: Nov 02 01:16 AEDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = FunctionTest.BasicAssertion
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FunctionTest
+[ RUN      ] FunctionTest.BasicAssertion
+[       OK ] FunctionTest.BasicAssertion (0 ms)
+[----------] 1 test from FunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FunctionTest.BasicAssertion" end time: Nov 02 01:16 AEDT
+"FunctionTest.BasicAssertion" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: HelloTest.BasicAssertions
+2/2 Test: HelloTest.BasicAssertions
+Command: "/Users/michaelchai/Desktop/UNI Second Year/Term 3/DESN2000/DESN2000/examples/build/main_test" "--gtest_filter=HelloTest.BasicAssertions" "--gtest_also_run_disabled_tests"
+Directory: /Users/michaelchai/Desktop/UNI Second Year/Term 3/DESN2000/DESN2000/examples/build
+"HelloTest.BasicAssertions" start time: Nov 02 01:16 AEDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions
+[       OK ] HelloTest.BasicAssertions (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions" end time: Nov 02 01:16 AEDT
+"HelloTest.BasicAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 02 01:16 AEDT

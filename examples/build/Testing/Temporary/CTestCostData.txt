@@ -1,0 +1,3 @@
+FunctionTest.BasicAssertion 1 0.006386
+HelloTest.BasicAssertions 1 0.00585556
+---
