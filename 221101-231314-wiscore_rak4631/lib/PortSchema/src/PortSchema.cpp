@@ -1,4 +1,5 @@
 #include "PortSchema.h"
+// #include <stdint.h>
 
 uint8_t portSchema::encodeSensorDataToPayload(sensorData *sensor_data, uint8_t *payload_buffer, uint8_t start_pos) {
     /* If the data should be included in the payload according to the portSchema, then encode the value.
@@ -33,5 +34,9 @@ uint8_t portSchema::encodeSensorDataToPayload(sensorData *sensor_data, uint8_t *
         payload_length = locationSchema.encodeData(sensor_data->location.longitude, sensor_data->location.is_valid,
                                                    payload_buffer, payload_length);
     }
+    if (sendTurbidity) {
+        payload_length = turbiditySchema.encodeData(sensor_data->turbidity.value, sensor_data->turbidity.is_valid,
+                                                   payload_buffer, payload_length);
+    }
     return payload_length;
-}
+};

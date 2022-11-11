@@ -33,7 +33,7 @@ class portSchema {
     /* An example of a new sensor:
     bool sendNewSensor;
     */
-
+    bool sendTurbidity;
     /**
      * @brief Encodes the given sensor data into the payload according to the port's schema.
      * Calls sensorPortSchema::encodeData for each sensor.
@@ -56,7 +56,8 @@ const portSchema PORT1 = {
     false, // sendRelativeHumidity
     false, // sendAirPressure
     false, // sendGasResistance
-    false  // sendLocation
+    false,  // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT2 = {
@@ -66,7 +67,8 @@ const portSchema PORT2 = {
     false, // sendRelativeHumidity
     false, // sendAirPressure
     false, // sendGasResistance
-    false  // sendLocation
+    false,  // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT3 = {
@@ -76,7 +78,8 @@ const portSchema PORT3 = {
     false, // sendRelativeHumidity
     false, // sendAirPressure
     false, // sendGasResistance
-    false  // sendLocation
+    false,  // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT4 = {
@@ -86,7 +89,8 @@ const portSchema PORT4 = {
     true,  // sendRelativeHumidity
     false, // sendAirPressure
     false, // sendGasResistance
-    false  // sendLocation
+    false,  // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT5 = {
@@ -96,7 +100,8 @@ const portSchema PORT5 = {
     true,  // sendRelativeHumidity
     false, // sendAirPressure
     false, // sendGasResistance
-    false  // sendLocation
+    false,  // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT6 = {
@@ -106,7 +111,8 @@ const portSchema PORT6 = {
     true,  // sendRelativeHumidity
     true,  // sendAirPressure
     false, // sendGasResistance
-    false  // sendLocation
+    false,  // sendLocation
+    false  // sendTurbidity
 };
 const portSchema PORT7 = {
     7,     // port_number
@@ -115,7 +121,8 @@ const portSchema PORT7 = {
     true,  // sendRelativeHumidity
     true,  // sendAirPressure
     false, // sendGasResistance
-    false  // sendLocation
+    false,  // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT8 = {
@@ -125,7 +132,8 @@ const portSchema PORT8 = {
     true,  // sendRelativeHumidity
     true,  // sendAirPressure
     true,  // sendGasResistance
-    false  // sendLocation
+    false,  // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT9 = {
@@ -135,7 +143,8 @@ const portSchema PORT9 = {
     true, // sendRelativeHumidity
     true, // sendAirPressure
     true, // sendGasResistance
-    false // sendLocation
+    false, // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT50 = {
@@ -145,7 +154,8 @@ const portSchema PORT50 = {
     false, // sendRelativeHumidity
     false, // sendAirPressure
     false, // sendGasResistance
-    true   // sendLocation
+    true,   // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT51 = {
@@ -155,7 +165,8 @@ const portSchema PORT51 = {
     false, // sendRelativeHumidity
     false, // sendAirPressure
     false, // sendGasResistance
-    true   // sendLocation
+    true,   // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT52 = {
@@ -165,7 +176,8 @@ const portSchema PORT52 = {
     false, // sendRelativeHumidity
     false, // sendAirPressure
     false, // sendGasResistance
-    true   // sendLocation
+    true,   // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT53 = {
@@ -175,7 +187,8 @@ const portSchema PORT53 = {
     false, // sendRelativeHumidity
     false, // sendAirPressure
     false, // sendGasResistance
-    true   // sendLocation
+    true,   // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT54 = {
@@ -185,7 +198,8 @@ const portSchema PORT54 = {
     true,  // sendRelativeHumidity
     false, // sendAirPressure
     false, // sendGasResistance
-    true   // sendLocation
+    true,   // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT55 = {
@@ -195,7 +209,8 @@ const portSchema PORT55 = {
     true,  // sendRelativeHumidity
     false, // sendAirPressure
     false, // sendGasResistance
-    true   // sendLocation
+    true,   // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT56 = {
@@ -205,7 +220,8 @@ const portSchema PORT56 = {
     true,  // sendRelativeHumidity
     true,  // sendAirPressure
     false, // sendGasResistance
-    true   // sendLocation
+    true,   // sendLocation
+    false  // sendTurbidity
 };
 const portSchema PORT57 = {
     57,    // port_number
@@ -214,7 +230,8 @@ const portSchema PORT57 = {
     true,  // sendRelativeHumidity
     true,  // sendAirPressure
     false, // sendGasResistance
-    true   // sendLocation
+    true,   // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT58 = {
@@ -224,7 +241,8 @@ const portSchema PORT58 = {
     true,  // sendRelativeHumidity
     true,  // sendAirPressure
     true,  // sendGasResistance
-    true   // sendLocation
+    true,   // sendLocation
+    false  // sendTurbidity
 };
 
 const portSchema PORT59 = {
@@ -234,7 +252,8 @@ const portSchema PORT59 = {
     true, // sendRelativeHumidity
     true, // sendAirPressure
     true, // sendGasResistance
-    true  // sendLocation
+    true,  // sendLocation
+    false  // sendTurbidity
 };
 
 /* An example of a new port:
@@ -248,5 +267,15 @@ const portSchema PORTX = {
     false  // sendLocation
 };
 */
+const portSchema PORT10 = {
+    10,
+    true, // sendBatteryVoltage
+    false, // sendTemperature
+    false, // sendRelativeHumidity
+    false, // sendAirPressure
+    false, // sendGasResistance
+    false, // sendLocation
+    true   // sendTurbidity
+};
 
 #endif // PORT_SCHEMA_H

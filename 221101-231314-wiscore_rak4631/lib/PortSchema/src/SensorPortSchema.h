@@ -48,6 +48,11 @@ struct sensorData {
         float longitude;
         bool is_valid;
     } location; /**< Location latitude & longitude in degrees. */
+    
+    struct {
+        uint32_t value;
+        bool is_valid;
+    } turbidity; // Turbdity: NTU
 };
 
 /** @brief sensorPortSchema describes how each sensors data should be encoded. */
@@ -135,5 +140,11 @@ static const sensorPortSchema newSensorSchema = {
     .is_signed = false
 };
 */
+static const sensorPortSchema turbiditySchema = { //unit NTU
+    .n_bytes = 2,
+    .n_values = 1,
+    .scale_factor = 1,
+    .is_signed = false
+};
 
 #endif // SENSOR_PORT_SCHEMA_H
