@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2022-11-15T07:31:35.903Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="wSbwJdV5byAJpbR3PZV-" version="20.5.3" type="github">
+  <diagram id="I0zQk4HkfGdo-Vgu8DKr" name="Page-1">
+    <mxGraphModel dx="359" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#457B9D;fontColor=#1D3557;arcSize=15;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="105" width="460" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-2" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="105" width="140" height="395" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-3" value="TTS Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="115" width="120" height="375" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="zhn2f9T4KII7SpPHsXiK-5" target="zhn2f9T4KII7SpPHsXiK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-5" value="Ranger wants to check for feral horse activity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="875" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="zhn2f9T4KII7SpPHsXiK-7" target="zhn2f9T4KII7SpPHsXiK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-7" value="Refresh Dashboard Variables" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="140" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="zhn2f9T4KII7SpPHsXiK-9" target="zhn2f9T4KII7SpPHsXiK-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-9" value="Display current dashboard state" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="275" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="zhn2f9T4KII7SpPHsXiK-11" target="zhn2f9T4KII7SpPHsXiK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-11" value="Request current dashboard state" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="885" y="140" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="zhn2f9T4KII7SpPHsXiK-13" target="zhn2f9T4KII7SpPHsXiK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-13" value="Database of dots" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="350" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="zhn2f9T4KII7SpPHsXiK-15" target="zhn2f9T4KII7SpPHsXiK-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-15" value="Unpack Payload and decode data into dots" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="275" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-16" value="Lora Authentication and Connection Server" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="130" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-17" value="Log payload" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="240" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-18" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;The Thing Stack&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="65" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-19" value="Ranger obtains feral horse activity&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="875" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#457B9D;fontColor=#1D3557;startArrow=classic;startFill=1;fillColor=#A8DADC;labelBackgroundColor=#F1FAEE;" edge="1" parent="1" source="zhn2f9T4KII7SpPHsXiK-22" target="zhn2f9T4KII7SpPHsXiK-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;labelBackgroundColor=#F1FAEE;" edge="1" parent="1" source="zhn2f9T4KII7SpPHsXiK-22" target="zhn2f9T4KII7SpPHsXiK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-22" value="Forward &amp;nbsp;Payload to Ubidots" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="370" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zhn2f9T4KII7SpPHsXiK-23" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Ubidots&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="70" width="90" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
