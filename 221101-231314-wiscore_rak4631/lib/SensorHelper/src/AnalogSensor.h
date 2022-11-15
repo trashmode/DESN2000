@@ -12,7 +12,7 @@
 #include <LoRaWan-RAK4630.h> // Click to get library: https://platformio.org/lib/show/6601/SX126x-Arduino
 
 #include "Logging.h" /**< Go here to change the logging level for the entire application. */
-;
+
 static const _eAnalogReference DEFAULT_ANALOG_REFERENCE = AR_DEFAULT; // Analog reference to default = 3.6V.
 static const int DEFAULT_ANALOG_RESOLUTION = 10;                      // Resolution to default 10-bit (0..4095).
 static const uint32_t DEFAULT_OVERSAMPLING = 0;                       // Oversampling disabled

@@ -131,10 +131,16 @@ sensorData getSensorData(const portSchema *port_settings) {
     //         data.location.is_valid = true;
     //     }
     // }
-    if (port_settings->sendTurbidity) {
-        float sensor = turbLvl.getSensorMV();
-        data.turbidity.value = turbLvl.mvToNTU(sensor);
+    if (port_settings->sendTurbidity) {             // Takes 100 measurments and sends the avg turbidity
+        float sum = 0;
+        for (int i = 0; 100 > i; i++) {
+            float sensor = turbLvl.getSensorMV();
+            sum = sum + turbLvl.mvToNTU(sensor);
+            log(LOG_LEVEL::DEBUG,"%d",i);
+            delay(100);
+        }
         data.turbidity.is_valid = true;
+        data.turbidity.value = sum/100;
     }
     return data;
 }

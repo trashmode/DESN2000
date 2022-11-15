@@ -134,7 +134,6 @@ float BatteryLevel::mvToSoC(float mvolts) {
 
 ////////////////////////////////////////////////
 
-
 void TurbidityLevel::ADCInit(void) {
     setCompensationFactor(TURBIDITY_COMPENSATION_FACTOR);
     // Get a single ADC sample and throw it away
@@ -143,13 +142,13 @@ void TurbidityLevel::ADCInit(void) {
 
 float TurbidityLevel::mvToNTU(float mvolts) {
     float turbdity;
-    float voltage = (mvolts/1000)*1.363; //changing mv into v and changing voltage range from 0 - 5 to 0 - 3
-    if(voltage < 2.5){
+    float voltage = (mvolts/1000)*3.227; //changing mv into v and changing voltage range from 0 - 5 to 0 - 3
+    if(voltage < 2.5){ // caping ntu at 3000 due to limits of equation
       turbdity = 3000;
-    } else if (voltage > 4.2) {
+    } else if (voltage > 4.45) {    // disgarding all values around upper limit of voltage output
         turbdity = 0;
     } else {
-    turbdity = -1120.4*sq(voltage) + (5742.3 * voltage) - (4352.9+0.904);
+    turbdity = -843.846*sq(voltage-2.563) + 3004.742; // calculating turbidity from adc voltage
     }
     log(LOG_LEVEL::DEBUG, "voltage: %.2f turbdity = %.2f% NTU", voltage, turbdity);
     return turbdity;
