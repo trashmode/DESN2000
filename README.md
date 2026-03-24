@@ -1,5 +1,5 @@
 # DESN2000
-
+Firmware for Wisblock LoraWan sensor and ubidots data connector. 
 ## Data Flow Diagram
 ![Data Flow Diagram](https://github.com/trashmode/DESN2000/blob/main/BlockDiagram.drawio.svg)
 
